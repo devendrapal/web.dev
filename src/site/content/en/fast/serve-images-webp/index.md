@@ -112,7 +112,11 @@ serve WebP to newer browsers and a fallback image to older browsers:
   <img src="flower.jpg" alt="">
 </picture>
 ```
-
+<picture> 
+<source type="img.webp" srcset="flower.webp"> 
+<source type="img.jpeg" srcset="flower.jpg"> 
+<img src="flower.jpg" alt="">
+</picture>
 The
 [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture),
 [`<source>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source),
